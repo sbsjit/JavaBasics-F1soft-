@@ -16,6 +16,7 @@ public class ThreadCreation {
     public static void main(String[] args) {
         //Thread Example without lambda  
         Runnable r1=new Runnable(){  
+            @Override
             public void run(){  
                 System.out.println("Thread 1 is running...");  
             }  
@@ -31,4 +32,4 @@ public class ThreadCreation {
     }  
     }
     
-}
+
